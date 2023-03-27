@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+
+body {
+    background-image: url("img/fondopantalla.jpg");
+
+  }
+
+
+  .headtitle{
+    background-image: url('img/bc.jpg');
+    background-position: 100%;
+    background-repeat: no-repeat;
+   
+  }
+.constructor h1 {
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo{
+margin: 20px;
+   color: black;
+   display: flex;
+   justify-content: center;
+   padding: 20px;
+   margin: 20px;
+ 
+}
+
+
+.caja {
+    margin: 25px;
+    padding: 23px;
+    display: inline-grid;
+}
+
+.card {
+    border: 2px solid black;
+}
+
+.negro{
+    color: black;
+}
+
+.maxpoke {
+    width: 285px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+.carritoWeb {
+    background-color: #880076;
+    /*position:fixed;*/
+    top: 30%;
+    right: 10px;
+    border: 1px solid white;
+  }
+
+.totalCarrito {
+    display: block;
+    margin: 10px;
+    
+}
+
+.totalCarrito h3 {
+    color: white;
+}
+
+.carritoImagen1{
+  display: flex;
+}
+
+.carritoImagen {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.carrito{
+    border: 1px solid black;
+    margin: 30px;
+    padding: 10px;
+    display: inline-grid;
+}
+
+.carrito img {
+    width: 120px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.carrito button{
+    border: 2px solid black;
+    background-color: cornflowerblue;
+    margin: 10px;
+}
+
+
+
+.sectionContenedor{
+    margin-left: 10px;
+    display: flex;
+    justify-content: left;
+    width: 400px;
+    height: 300px;
+}
+
+.sectionContenedor .card-final {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-final{
+    display: flex;
+    justify-content: flex-start;
+    width: 300px;
+    
+    
+}
+
+.card-final .precio {
+    margin: 10px;
+}
+
+.card-final .cantidad {
+    margin: 10px;
+}
+
+.card-final .nombre {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+.banner img {
+    width: 400px;
+    height: 500px;
+}
+
+
+
