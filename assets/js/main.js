@@ -57,7 +57,7 @@ const banner = document.getElementById("banner");
 
 setTimeout(() => {
   banner.innerHTML="";
-},4000);
+},5000);
 
 
 
